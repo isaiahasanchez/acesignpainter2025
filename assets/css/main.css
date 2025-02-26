@@ -1,6 +1,12 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
+@font-face {
+	font-family: 'COOPBL';
+	src: url('../webfonts/COOPBL.TTF') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
@@ -123,7 +129,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Kaushan Script", serif;
+		font-family: "COOPBL", serif;
 
 
 		font-size: 16pt;
